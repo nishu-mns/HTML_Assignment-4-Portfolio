@@ -11,7 +11,7 @@ nav ul {
 
 nav li {
     display: inline;
-    padding: 8px;
+    padding: 2%;
 }
 
 nav a {
@@ -122,4 +122,18 @@ footer .social {
 #education h2 {
     text-decoration: underline;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+    #home {
+        font-size: 20px;
+        padding: 25%;
+        margin-bottom: -25px;
+    }
+    #profilepic {
+        width: 180px;
+    }
+    #aboutme{
+        padding: 5% 10%;
+    }
 }
